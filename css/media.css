@@ -1,0 +1,176 @@
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: var(--bg);
+    }
+    .text-dark{
+        color: var(--white) !important;
+    }
+    .header__carousel-left-content>span{
+        color: var(--white) !important;
+    }
+    .btn.btn-light.shadow{
+        background-color: var(--blue);
+    }
+    .frontend__right > p{
+        color: var(--white);
+    }
+    .accordion-button{
+        background-color: var(--bg);
+        color: var(--blue);
+    }
+    .nav.shadow.flex-column.nav-pills.me-3.bg-light{
+        background-color: var(--bg) !important;
+    }
+    .works__right.h-100.bg-white{
+        background-color: var(--bg) !important;
+    }
+    .works__right-content>p {
+        color: var(--white);
+    }
+    .footer__link.text-primary.d-block.mb-2.fs-4.text-capitalize.mx-auto{
+        color: var(--white) !important;
+    }
+  }
+/* @media(max-width: 1920px){} */
+/* @media(max-width: 1680px){} */
+/* @media(max-width: 1600px){} */
+/* @media(max-width: 1536px){} */
+/* @media(max-width: 1440px){} */
+/* @media(max-width: 1366px){} */
+/* @media(max-width: 1280px){} */
+@media(max-width: 1080px){
+    .header__carousel-right>img, .frontend__left.position-relative>img, .capability__right>img{
+        width: 65% !important;
+        margin: 0 auto;
+        display: block;
+    }
+    .header__carousel-left-content{
+        text-align: center;
+    }
+    .btn.btn-light.text-uppercase.position-absolute{
+        left: 18% !important;
+    }
+    .nav.shadow.flex-column.nav-pills{
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+    .works__content{
+        height: unset !important;
+    }
+    .row.works__content> .col-xl-3.h-100{
+        height: max-content !important;
+        margin-bottom: 30px;
+    }
+}
+/* @media(max-width: 1024px){} */
+/* @media(max-width: 992px){} */
+/* @media(max-width: 991px){} */
+/* @media(max-width: 800px){} */
+/* @media(max-width: 768px){} */
+/* @media(max-width: 767px){} */
+/* @media(max-width: 736px){} */
+/* @media(max-width: 734px){} */
+/* @media(max-width: 684px){} */
+/* @media(max-width: 667px){} */
+/* @media(max-width: 640px){} */
+/* @media(max-width: 600px){} */
+@media(max-width: 575px){
+    
+    .navbar-toggler{
+        padding: 0 8px;
+    }
+    .nav.shadow.flex-column.nav-pills{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+}
+/* @media(max-width: 540px){} */
+@media(max-width: 425px){
+    .header__carousel-left-content{
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .header__carousel-right>img, .frontend__left.position-relative>img, .capability__right>img{
+        margin: 0 auto;
+        display: block;
+        width: 90% !important;
+    }
+    .works__right{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .d-flex.flex-column.align-items-center.gap-2>img{
+        max-width: 50px;
+    }
+    .btn.btn-light.text-uppercase.position-absolute{
+        left: 0 !important;
+    }
+    .works.mb-5>h2{
+        font-size: 5px;
+    }
+    .footer__link.text-primary.d-block{
+        font-size: 5px;
+    }
+}
+/* @media(max-width: 414px){} */
+/* @media(max-width: 412px){} */
+@media(max-width: 384px){
+    .h2.text-primary{
+        font-size: 20px !important;
+    }
+    .h4.text-primary{
+        font-size: 20px !important;
+    }
+    .nav-link.py-2{
+        font-size: 15px !important;
+    }
+    .footer__link{
+        font-size: 15px !important;
+    }
+    .h-6{
+        font-size: 15px !important;
+    }
+}
+/* @media(max-width: 375px){} */
+@media(max-width: 360px){
+    .h6.fs-5.text-primary{
+        font-size: 12px !important;
+    }
+    .h-6{
+        font-size: 12px !important;
+    }
+}
+@media(max-width: 320px){
+    .navbar-toggler-icon{
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .navbar-brand{
+        width: min-content !important;
+    }
+    .btn.btn-primary.d-block{;
+        padding: 5px !important;
+        font-size: 15px !important;
+    }
+    .btn.btn-primary.text-light{
+        padding: 8px !important;
+        font-size: 12px !important;
+    }
+    .d-flex.align-items-center.gap-3>span{
+        font-size: 15px !important;
+    }
+    .accordion-body{
+        font-size: 13px !important;
+    }
+    .nav-link{
+        font-size: 14px !important;
+    }
+    .works__right-content>p{
+        font-size: 13px !important;
+    }
+    .tn btn-primary px-5 ms-4{
+        
+    }
+}
